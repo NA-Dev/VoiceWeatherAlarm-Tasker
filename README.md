@@ -15,9 +15,9 @@ Pre-requisites:
 
 - Download a Tasker-compatible alarm app for your phone, e.g.  $1.99 or limited free trial version [Gentle Alarm](https://play.google.com/store/apps/details?id=com.mobitobi.android.gentlealarm&hl=en). I tried the stock alarm app, and Tasker did not work properly. Googling confirmed, they are often not compatible.
 
-	[Alternatively, you could give the free[ClockTask](https://play.google.com/store/apps/details?id=com.balda.clocktask&hl=en) plugin a try along with your stock alarm app. I have not yet verified this method for myself, but saw some forum posts about positive results, and the plugin is made specifically for Tasker.]
+	[Alternatively, you could give the free [ClockTask](https://play.google.com/store/apps/details?id=com.balda.clocktask&hl=en) plugin a try along with your stock alarm app. I have not yet verified this method for myself, but saw some forum posts about positive results, and the plugin is made specifically for Tasker.]
 
--Sign up for a free API key with Weather Underground [here](http://www.wunderground.com/weather/api). The key is a 16-character alpha-numeric key, and you will need to type or paste those characters into Tasker. 
+- Sign up for a free API key with Weather Underground [here](http://www.wunderground.com/weather/api). The key is a 16-character alpha-numeric key, and you will need to type or paste those characters into Tasker. 
 
 	[An API key gives your phone permission to log in to Weather Underground and retrieve data a limited number of times per hour and per day. This should be plenty of allowance for your personal use. Without these keys and limits, spammers could bog Weather Underground down with frivolous requests and force them to shut down this useful service.]
 
@@ -72,6 +72,6 @@ Additional optional customizations:
 
 - Change Task #7 to set the volume of the spoken words.
 
-- [Advanced - instructions not covered here] Learn more about the wunderground API variable options and add additional weather conditions to the spoken forecast. You will need to edit task #6 and task #9 to do this.
+- Advanced (instructions not covered here): Learn more about the wunderground API variable options and add additional weather conditions to the spoken forecast. You will need to edit task #6 and task #9 to do this.
 
-- [Advanced - instructions not covered here] Modify your profile to only read the weather on rainy days. Like [this](https://github.com/mbirth/tasker/blob/master/RainWarning.prf.xml) profile from GitHub user "mbirth" called RainWarning. You can import his xml file into Tasker or read the code with a text editor to see how it works.
+- Advanced (instructions not covered here): Modify your profile to only read the weather on rainy days. Like [this](https://github.com/mbirth/tasker/blob/master/RainWarning.prf.xml) profile from GitHub user "mbirth" called RainWarning. You can import his xml file into Tasker or read the code with a text editor to see how it works.
